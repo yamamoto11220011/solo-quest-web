@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/solo-quest-web/sw.js', { scope: '/solo-quest-web/' })})}
